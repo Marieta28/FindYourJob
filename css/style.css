@@ -315,9 +315,7 @@ h3 {
 .footer-list-item:not(:last-child) {
   margin-bottom: 10px;
 }
-.w400 {
-  width: 150px;
-}
+
 @media (max-width: 1200px) {
   .hero-img {
     width: 150px;
@@ -334,6 +332,9 @@ h3 {
   }
 }
 @media (max-width: 992px) {
+  .w400 {
+  width: 150px;
+}
   .hero {
     align-items: center;
   }
